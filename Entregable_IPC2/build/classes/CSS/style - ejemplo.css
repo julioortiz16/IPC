@@ -1,0 +1,31 @@
+.background {
+    -fx-background-image: url("/imagenes/Fondo.jpg");
+    -fx-background-size:cover;
+}
+.button {
+    -fx-background-radius: 30;
+    -fx-background-color: #66bb6a;
+    -fx-effect : innershadow(three-pass-box, rgba(76,175,80,1), 0, 0, 4, 4);
+}
+
+.button:hover {
+    
+    -fx-background-radius: 30;
+    -fx-background-color: rgba(76,180,80,1);
+    -fx-effect : null;
+}
+
+.button:pressed {
+    -fx-background-radius: 30;
+    -fx-background-color: rgba(76,175,80,1);
+    -fx-effect : innershadow(three-pass-box, rgba(76,175,80,1), 0, 0, 4, 4);
+}
+
+
+#button-1 {
+-fx-text-fill: rgba(17, 145, 213);
+-fx-border-color: rgba(255, 255, 255, .80);
+-fx-border-radius: 8;
+-fx-padding: 6 6 6 6;
+-fx-font: bold italic 12pt "LucidaBrightDemiBold";
+}
